@@ -58,6 +58,7 @@ h3 {
 .text-gradient-gold {
     background: var(--gold-gradient);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
@@ -112,9 +113,7 @@ h3 {
     background: linear-gradient(to bottom, transparent, var(--bg-dark));
 }
 
-.hero-content {
-    /* Ensure text is above image */
-}
+
 
 .hero h1 {
     font-size: clamp(3.5rem, 9vw, 7rem);
