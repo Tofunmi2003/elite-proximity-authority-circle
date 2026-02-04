@@ -1,0 +1,17 @@
+{
+  "name": "elite-proximity-circle",
+  "version": "1.0.0",
+  "description": "Sales page for Elite Proximity & Authority Circle",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.21"
+  }
+}
