@@ -67,12 +67,18 @@ h3 {
     font-family: var(--font-body);
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-size: 0.875rem;
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
+    /* Bigger and responsive */
+    font-weight: 700;
+    /* Bold */
     color: var(--gold-primary);
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     display: block;
-    opacity: 0.8;
+    opacity: 1;
+    /* Fully visible */
+    text-shadow: 0 0 20px rgba(229, 195, 101, 0.6);
+    /* Pop/Glow effect */
 }
 
 /* Hero Section */
